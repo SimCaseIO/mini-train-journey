@@ -1,0 +1,10 @@
+{
+  "files": {
+    "main.js": "/mini-train-journey/dist/static/js/main.7f7aae54.js",
+    "index.html": "/mini-train-journey/dist/index.html",
+    "main.7f7aae54.js.map": "/mini-train-journey/dist/static/js/main.7f7aae54.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.7f7aae54.js"
+  ]
+}
