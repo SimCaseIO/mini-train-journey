@@ -1,10 +1,13 @@
 {
   "files": {
+    "main.css": "/mini-train-journey/dist/static/css/main.f1632446.css",
     "main.js": "/mini-train-journey/dist/static/js/main.7f7aae54.js",
     "index.html": "/mini-train-journey/dist/index.html",
+    "main.f1632446.css.map": "/mini-train-journey/dist/static/css/main.f1632446.css.map",
     "main.7f7aae54.js.map": "/mini-train-journey/dist/static/js/main.7f7aae54.js.map"
   },
   "entrypoints": [
+    "static/css/main.f1632446.css",
     "static/js/main.7f7aae54.js"
   ]
 }
