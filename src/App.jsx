@@ -301,7 +301,7 @@ export const App = () => {
 
   return (
     <GameContext.Provider value={contextValue}>
-      <div className='game-container mx-auto p-8 bg-gray-200 min-h-screen flex items-center justify-center'>
+      <div className='game-container max-w-2xl mx-auto p-8 bg-gray-200 min-h-screen flex items-center justify-center'>
         <div className='w-full'>
           <h1 className='sr-only'>Train Journey Game</h1>
           {gameState === 'intro' && <IntroScreen />}

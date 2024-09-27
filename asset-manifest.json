@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/mini-train-journey/dist/static/css/main.2668b712.css",
-    "main.js": "/mini-train-journey/dist/static/js/main.44bd8676.js",
+    "main.css": "/mini-train-journey/dist/static/css/main.4c475945.css",
+    "main.js": "/mini-train-journey/dist/static/js/main.85cfcded.js",
     "static/media/logo-bg.png": "/mini-train-journey/dist/static/media/logo-bg.19c7078767a3481d8725.png",
     "index.html": "/mini-train-journey/dist/index.html",
-    "main.2668b712.css.map": "/mini-train-journey/dist/static/css/main.2668b712.css.map",
-    "main.44bd8676.js.map": "/mini-train-journey/dist/static/js/main.44bd8676.js.map"
+    "main.4c475945.css.map": "/mini-train-journey/dist/static/css/main.4c475945.css.map",
+    "main.85cfcded.js.map": "/mini-train-journey/dist/static/js/main.85cfcded.js.map"
   },
   "entrypoints": [
-    "static/css/main.2668b712.css",
-    "static/js/main.44bd8676.js"
+    "static/css/main.4c475945.css",
+    "static/js/main.85cfcded.js"
   ]
 }
