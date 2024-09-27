@@ -2,7 +2,7 @@
   "homepage": "https://simcaseio.github.io/mini-train-journey/dist",
   "scripts": {
     "start": "react-scripts start",
-    "build": "BUILD_PATH='./dist' react-scripts build"
+    "build": "BUILD_PATH='./dist' react-scripts build && cp -rf ./dist/ ./"
   },
   "dependencies": {
     "lucide-react": "^0.403.0",

@@ -77,11 +77,14 @@ const SelectionScreen = () => {
         </button>
       </div>
       {trainType && (
-        <button
-          onClick={confirmSelection}
-          className='bg-purple-600 hover:bg-purple-700 text-white font-bold py-3 px-6 rounded-full transition duration-300 ease-in-out transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-purple-600 focus:ring-opacity-50'>
-          Confirm Selection
-        </button>
+        <div className='flex justify-center space-x-4 mb-6'>
+          <button
+            onClick={confirmSelection}
+            aria-label='Confirm Selection'
+            className='bg-purple-600 hover:bg-purple-700 text-white font-bold py-3 px-6 rounded-full transition duration-300 ease-in-out transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-purple-600 focus:ring-opacity-50'>
+            Confirm Selection
+          </button>
+        </div>
       )}
     </div>
   );
@@ -298,7 +301,7 @@ export const App = () => {
 
   return (
     <GameContext.Provider value={contextValue}>
-      <div className='game-container max-w-2xl mx-auto p-8 bg-gray-200 min-h-screen flex items-center justify-center'>
+      <div className='game-container mx-auto p-8 bg-gray-200 min-h-screen flex items-center justify-center'>
         <div className='w-full'>
           <h1 className='sr-only'>Train Journey Game</h1>
           {gameState === 'intro' && <IntroScreen />}
